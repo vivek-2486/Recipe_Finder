@@ -1,0 +1,180 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* BODY */
+body {
+    background: #f6f1e7;
+    color: #222;
+}
+
+/* HEADER */
+.intro {
+    text-align: center;
+    padding: 20px;
+}
+
+.intro h1 {
+    font-size: 2.2rem;
+    margin-bottom: 5px;
+}
+
+.intro h3 {
+    font-weight: 400;
+    color: #555;
+}
+
+/* SEARCH SECTION */
+.search-body {
+    width: 90%;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.search {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 2px solid #ddd;
+    border-radius: 6px;
+    outline: none;
+}
+
+.search-btn {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background: coral;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.search-btn:hover {
+    background: #ff5a2a;
+}
+
+/* MESSAGES */
+.searching,
+.success-res,
+#error-res {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+#error-res {
+    color: red;
+}
+
+/* HIDDEN CLASS */
+.hidden {
+    display: none;
+}
+
+/* MEAL GRID */
+.meals-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 15px;
+    margin-top: 20px;
+}
+
+/* MEAL CARD */
+.meal {
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: 0.2s ease;
+}
+
+.meal:hover {
+    transform: scale(1.03);
+}
+
+.meal img {
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+}
+
+.meal-info {
+    padding: 10px;
+}
+
+.meal-title {
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
+
+.meal-category {
+    font-size: 12px;
+    color: #777;
+}
+
+/* DETAILS VIEW */
+#srch-res {
+    margin-top: 20px;
+}
+
+.back-btn {
+    padding: 8px 12px;
+    margin: 10px 0;
+    background: #333;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.back-btn:hover {
+    background: #000;
+}
+
+.mainBody {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.mainBody img {
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.instru {
+    margin-top: 15px;
+    line-height: 1.5;
+}
+
+.ingrdList {
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.ingrdList div {
+    font-weight: normal;
+    padding: 4px 0;
+}
+
+.vizeo a {
+    display: inline-block;
+    margin-top: 15px;
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.vizeo a:hover {
+    text-decoration: underline;
+}

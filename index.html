@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recpeies</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="main">
+    <header class="intro">
+      <h1>Food Recpeies</h1>
+      <h3>Place to discover every <i>Yummy</i> <b>Dish</b></h3>
+    </header>
+    <div class="search-body">
+      <input type="text" class="search" placeholder="Chicken">
+      <button class="search-btn">Find</button>
+      <div class="res">
+        <div class="searching"></div>
+        <div id="error-res" class ="hidden">
+            <p>No meals Find 🙁</p>
+        </div>
+        <div class="success-res">
+        </div>
+        <div class="meals-container"></div>
+        <div id="srch-res" class="hidden">
+            <button class="back-btn hidden">Back to Menu</button>
+          <div class="srch-content"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
