@@ -15,7 +15,6 @@ Users can search for meals, view recipe details, ingredients, instructions, and 
 * Ingredient + measurement list
 * YouTube tutorial links
 * Smooth scrolling interactions
-* Responsive dark-themed UI
 
 ---
 
