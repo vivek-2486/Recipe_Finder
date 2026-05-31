@@ -17,7 +17,9 @@ Users can search for meals, view recipe details, ingredients, instructions, and 
 * Smooth scrolling interactions
 
 ---
+## Screenshots
 
+![Jome Page](image.png)
 ## Tech Stack 🚀
 
 * HTML5
